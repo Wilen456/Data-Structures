@@ -1,0 +1,14 @@
+C:\Users\0828228\source\repos\Data Structures\Data Structures\bin\Debug\net8.0\Unit1Prb2.exe
+C:\Users\0828228\source\repos\Data Structures\Data Structures\bin\Debug\net8.0\Unit1Prb2.deps.json
+C:\Users\0828228\source\repos\Data Structures\Data Structures\bin\Debug\net8.0\Unit1Prb2.runtimeconfig.json
+C:\Users\0828228\source\repos\Data Structures\Data Structures\bin\Debug\net8.0\Unit1Prb2.dll
+C:\Users\0828228\source\repos\Data Structures\Data Structures\bin\Debug\net8.0\Unit1Prb2.pdb
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\Unit1Prb2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\Unit1Prb2.AssemblyInfoInputs.cache
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\Unit1Prb2.AssemblyInfo.cs
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\Unit1Prb2.csproj.CoreCompileInputs.cache
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\Unit1Prb2.dll
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\refint\Unit1Prb2.dll
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\Unit1Prb2.pdb
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\Unit1Prb2.genruntimeconfig.cache
+C:\Users\0828228\source\repos\Data Structures\Data Structures\obj\Debug\net8.0\ref\Unit1Prb2.dll

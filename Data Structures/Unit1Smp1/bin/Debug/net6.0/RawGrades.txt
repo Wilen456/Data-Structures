@@ -1,0 +1,8 @@
+Number of students:
+3
+Number of class days:
+12
+*****Data below*****
+Smith, Amy, 100, 90, 85, 90, 180, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0
+Hart, Jim, 50, 92, 65, 82, 100, 1, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0
+Williams, Rachel, 90, 92, 89, 100, 195, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0
