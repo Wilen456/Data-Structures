@@ -50,6 +50,7 @@ namespace Unit1Smp1
         static string[] letterGradeArray;
         static int[] absencesArray;
         static bool[] bonusArray;
+        static int[] printOrder;
 
 
         // Main entry point into the application
@@ -250,9 +251,28 @@ namespace Unit1Smp1
             fileOut.WriteLine("Last Name,  First Name  Percent  Absences  Grade  Bonus");
             fileOut.WriteLine("*******************************************************");
 
+            //read the order of students, print them out differently. print out by last name
+
+            for (i=0; i<numOfStudents;i++){
+                printOrder[i]=i;
+            }
+            for(i=0;i<numOfStudents;i++){
+                min=i;
+
+                for(j=i+1; j<numOfStudents;j++){
+                    if((lastNameArray[j]+firstNameArray[j]).CompareTo(lastNameArray[min]+firstNameArray[min])){
+                        min=j;
+                    }
+                    if(min!=1){
+                        temp = printOrder[i];
+                        printOrder[min]=printOrder[i];
+                        printOrder[i]=temp;
+                    }
+                }
+            }
             for (i = 0; i < numOfStudents; i++)
             {
-                fileOut.WriteLine("{0,10}, {1,10}   {2:P2} {3,9}  {4,4} {5,7}", lastNameArray[i], firstNameArray[i], percentArray[i], absencesArray[i], letterGradeArray[i], bonusArray[i]);
+                fileOut.WriteLine("{0,10}, {1,10}   {2:P2} {3,9}  {4,4} {5,7}", lastNameArray[printOrder[i]], firstNameArray[printOrder[i]], percentArray[printOrder[i]], absencesArray[printOrder[i]], letterGradeArray[printOrder[i]], bonusArray[printOrder[i]]);
             }
 
             fileOut.Close();
