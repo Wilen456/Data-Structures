@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Unit1Prb3/1.0.0": {
+        "dependencies": {
+          "ArrayStackLib": "1.0.0"
+        },
+        "runtime": {
+          "Unit1Prb3.dll": {}
+        }
+      },
+      "ArrayStackLib/1.0.0": {
+        "runtime": {
+          "ArrayStackLib.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Unit1Prb3/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ArrayStackLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
