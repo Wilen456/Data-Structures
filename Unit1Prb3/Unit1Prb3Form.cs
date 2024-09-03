@@ -39,7 +39,8 @@ namespace Unit1Prb3
 
             switch (infixOperator)
             {
-                case '(': priority = 3; break;
+                case '(': priority = 4; break;
+                case '^': priority = 3; break;
                 case '*': case '/': priority = 2; break;
                 case '+': case '-': priority = 1; break;
                 case ')': priority = 0; break;
@@ -52,6 +53,7 @@ namespace Unit1Prb3
 
             switch (stackOperator)
             {
+                case '^': priority = 3; break; 
                 case '*': case '/': priority = 2; break;
                 case '+': case '-': priority = 1; break;
                 case '(': priority = 0; break;
@@ -94,8 +96,7 @@ namespace Unit1Prb3
                     {
                         topCh = (char)operatorStack.Peek();
 
-                        if ((StackPriority(topCh) > InfixPriority(infixCh)) ||
-                            (StackPriority(topCh) == InfixPriority(infixCh) && infixCh != '^'))
+                        if ((StackPriority(topCh) >= InfixPriority(infixCh)) && !(topCh=='^' && infixCh=='^'))//catches the double ^ cases
                         {
                             operatorStack.Pop();
                             postfixStr += topCh;
@@ -140,7 +141,7 @@ namespace Unit1Prb3
                 else
                 {
                     operand2 = (double)operandStack.Pop();//2 operands means its push time bb
-                    operand1 = (double)operandStack.Pop();
+                    operand1 = (double)operandStack.Pop();//dont forget to pop them in reverse order to account for matricies/order
 
                     switch (postfixCh)
                     {
